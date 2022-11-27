@@ -1,0 +1,50 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: url(../src/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    font-family: sans-serif;
+}
+
+body .beforelogin {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+body .beforelogin a {
+    position: absolute;
+    top:70%;
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: hsl(357, 92%, 47%);
+    box-shadow: 0px 0px 2px whitesmoke;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+body .beforelogin a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+body .beforelogin a:hover {
+    background-color: whitesmoke;
+    color: #e50914;
+    box-shadow: 0px 0px 2px #e50914;
+
+}

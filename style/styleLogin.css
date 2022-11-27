@@ -1,0 +1,50 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: url(../src/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    font-family: sans-serif;
+}
+body a .logo {
+    width: 250px;
+    height: 60px;
+
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+body .logindiv {
+    position: absolute;
+    top: 180px;
+    left: 37%;
+
+    background-color: rgba(0, 0, 0, 0.694);
+    padding: 60px;
+
+    height: 500px;
+    width: 400px;
+}
+body .logindiv .signintext {
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+body .logindiv form {
+    display: flex;
+    flex-direction: column;
+}
+body .logindiv form input {
+    height: 40px;
+    margin: 5px;
+}
