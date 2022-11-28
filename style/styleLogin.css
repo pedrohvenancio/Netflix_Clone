@@ -32,7 +32,7 @@ body .logindiv {
     background-color: rgba(0, 0, 0, 0.694);
     padding: 60px;
 
-    height: 500px;
+    height: 515px;
     width: 400px;
 }
 body .logindiv .signintext {
@@ -47,4 +47,90 @@ body .logindiv form {
 body .logindiv form input {
     height: 40px;
     margin: 5px;
+}
+#email, #password {
+    background-color: #333333;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3%;
+    font-size: 15px;
+    padding-left: 15px;
+
+    transition: all 0.5ms;
+}
+#email:focus, #password:focus {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#submit {
+    background-color: #e50914;
+    color: whitesmoke;
+    border: none;
+    border-radius: 2%;
+    font-size: 15px;
+    margin-top: 25px;
+    transition: 0.7ms;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: whitesmoke;
+    color: #e50914;
+}
+#check {
+    height: 17px;
+    width: 17px;
+}
+.rememberme {
+    color: whitesmoke;
+    position: relative;
+    bottom: 22px;
+    left: 25px;
+}
+.needhelp{
+    position: relative;
+    bottom: 42px;
+    left: 194px;
+transition: 0.3ms;
+    color: whitesmoke;
+}
+.needhelp:hover{
+    color: #e50914;
+}
+
+body .signup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+body div h2 .imgface {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+body div .h2face {
+    color: rgb(133, 133, 133);
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+body div .h2new {
+    color: rgb(133, 133, 133);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+body div h2 .ah2 {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding-left: 5px;
+}
+body div .h3text {
+    color: rgb(133, 133, 133);
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 10px;
+}
+body div h3 .ah3 {
+    color: rgb(0, 55, 255);
 }
