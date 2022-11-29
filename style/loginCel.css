@@ -10,7 +10,7 @@ body {
     background-image: url(../src/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 110vh;
     width: 100%;
     font-family: sans-serif;
 }
@@ -25,14 +25,15 @@ body a .logo {
 
 body .logindiv {
     position: absolute;
-    top: 220px;
-    left: 3%;
+    top: 150px;
+    left: 1%;
 
     background-color: rgba(0, 0, 0, 0.694);
     padding: 30px;
 
-    height: 500px;
+    height: 450px;
     width: 350px;
+    padding-bottom: 10px;
 }
 body .logindiv .signintext {
     color: whitesmoke;

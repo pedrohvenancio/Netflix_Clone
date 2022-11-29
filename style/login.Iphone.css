@@ -10,7 +10,7 @@ body {
     background-image: url(../src/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 
     font-family: sans-serif;
@@ -34,6 +34,7 @@ body .logindiv {
 
     height: 500px;
     width: 350px;
+
 }
 body .logindiv .signintext {
     color: whitesmoke;

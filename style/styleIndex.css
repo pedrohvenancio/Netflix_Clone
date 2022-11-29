@@ -7,24 +7,27 @@
     text-decoration: none;
 }
 body {
-    background-image: url(../src/bg1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     height: 100%;
     width: 100%;
-    background-color: black;
+    padding: 100px;
     font-family: sans-serif;
 }
 
 body .beforelogin {
     display: flex;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
 }
 body .beforelogin a {
-    width: 150px;
+    width: 180px;
     height: 50px;
     
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: hsl(357, 92%, 47%);
     box-shadow: 0px 0px 2px whitesmoke;
     transition: 0.3s ease-out;
@@ -41,4 +44,8 @@ body .beforelogin a:hover {
     color: #e50914;
     box-shadow: 0px 0px 2px #e50914;
 
+}
+body div img {
+    height: 400px;
+    width: 250px;
 }
