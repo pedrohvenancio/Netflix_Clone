@@ -21,10 +21,10 @@
 <div class="logindiv">
     <div class="signin">
         <h2 class="signintext">Sign In</h2>
-        <form action="">
+        <form action="" method="post" autocomplete="off">
             <input type="email" name="Email" id="email" placeholder="Email" class="info">
             <input type="password" name="Password" id="password" placeholder="Password" class="info">
-            <input type="submit" value="Sign In" id="submit">
+            <input type="button" value="Sign In" id="submit" onclick="document.location.href = 'homepage.html'">
             <input type="checkbox" name="rememberme" id="check">
             <label for="rememberme" class="rememberme">Remember me</label>
         </form>
@@ -36,7 +36,6 @@
         <h3 class="h3text">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" class="ah3">Learn more.</a></h3>
     </div>
 </div>
-
 
 
 </body>
